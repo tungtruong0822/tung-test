@@ -77,8 +77,8 @@ export class MyExtension extends Autodesk.Viewing.Extension {
         layout: 'fitColumns',
         groupBy: 'group',
         columns: [
-            { title: 'Name', field: 'name', width: 150 },
-            { title: 'Volume', field: 'volume', hozAlign: 'left', formatter: 'progress' },
+            { title: 'Type name', field: 'name', width: 150 },
+            { title: 'Tổng khối lượng', field: 'volume', hozAlign: 'left', formatter: 'progress' },
 
         ]
     });
