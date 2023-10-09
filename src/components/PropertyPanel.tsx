@@ -52,7 +52,7 @@ const PropertyPanel = ({ selectedIds, viewer }) => {
 
   return (
     <div className="property-panel">
-      <h3>Selected Object Properties:</h3>
+      <h3>Khối lương bê tông:</h3>
       <ul>
         {properties.map((volume, index) => (
           <li key={index}>
